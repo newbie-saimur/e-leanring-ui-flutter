@@ -67,9 +67,9 @@ A beautifully designed e-learning mobile application UI built with Flutter and M
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="screenshots/onboarding.png" alt="Onboarding Screen" width="250"/>
-  <img src="screenshots/home.png" alt="Home Screen" width="250"/>
-  <img src="screenshots/course_details.png" alt="Course Details" width="250"/>
+  <img src="screenshots-for-ui/onboarding.jpg" alt="Onboarding Screen" width="250"/>
+  <img src="screenshots-for-ui/homepage.jpg" alt="Home Screen" width="250"/>
+  <img src="screenshots-for-ui/course_details.jpg" alt="Course Details" width="250"/>
 </div>
 
 ### Onboarding Screen
