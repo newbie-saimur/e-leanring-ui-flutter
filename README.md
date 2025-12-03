@@ -1,0 +1,140 @@
+# E-Learning UI
+
+A modern and elegant e-learning mobile application UI built with Flutter. This project showcases a complete learning platform interface with course browsing, video playback, and interactive course details.
+
+## Features
+
+-   **Onboarding Screen** - Welcome screen with smooth transitions
+-   **Home Screen** - Browse available courses with search functionality
+-   **Course Details Screen** - Comprehensive course information with:
+    -   Video player with custom controls (using Chewie)
+    -   Tabbed interface for Playlist and Description
+    -   Course modules with completion tracking
+    -   Enrollment options
+
+## Screenshots
+
+_(Add your app screenshots here)_
+
+## Tech Stack
+
+-   **Flutter** - UI framework
+-   **Dart** - Programming language
+-   **Material 3** - Design system
+-   **video_player** - Video playback functionality
+-   **chewie** - Video player controls
+-   **flutter_svg** - SVG image support
+
+## Dependencies
+
+```yaml
+dependencies:
+    flutter:
+        sdk: flutter
+    cupertino_icons: ^1.0.8
+    flutter_svg: ^2.2.3
+    video_player: ^2.10.1
+    chewie: ^1.13.0
+```
+
+## Getting Started
+
+### Prerequisites
+
+-   Flutter SDK (^3.9.2 or higher)
+-   Dart SDK
+-   Android Studio / VS Code with Flutter extension
+-   Android/iOS emulator or physical device
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd e_learning_ui
+```
+
+2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+3. Run the app
+
+```bash
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+├── main.dart                    # App entry point
+├── utils/
+│   └── colors.dart             # App color palette
+├── views/
+│   ├── OnboardingScreen/       # Onboarding UI
+│   ├── HomeScreen/             # Home/Browse UI
+│   └── CourseDetailsScreen/    # Course details with video player
+└── widgets/
+    ├── custom_app_bar.dart     # Reusable app bar
+    └── custom_button.dart      # Reusable button component
+```
+
+## Key Components
+
+### Custom Button
+
+A reusable elevated button with customizable:
+
+-   Background color
+-   Text color and size
+-   Border radius
+-   Shadow and elevation
+
+### Custom App Bar
+
+A consistent app bar component used across screens.
+
+### Video Player
+
+Integrated video playback with:
+
+-   Custom controls
+-   Play/pause functionality
+-   Rounded corners matching container design
+-   Auto-play and looping options
+
+### Tab Bar
+
+Material Design tab navigation with:
+
+-   Rounded pill-style tabs
+-   Custom indicator styling
+-   Playlist and Description views
+
+## Color Scheme
+
+The app uses a custom color palette defined in `utils/colors.dart`:
+
+-   Primary Color: Purple/Indigo tones
+-   Background Color: Light background
+-   Accent colors for various UI elements
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+Created by [Your Name] - feel free to contact me!
+
+---
+
+**Note:** This is a UI project focused on design and user experience. Backend integration and actual course data would need to be implemented for a production application.
