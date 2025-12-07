@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 
-PreferredSizeWidget CustomAppBar({
+PreferredSizeWidget customAppBar({
   required BuildContext context,
   required title,
 }) {

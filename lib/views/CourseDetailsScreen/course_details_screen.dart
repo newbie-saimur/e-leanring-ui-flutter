@@ -165,7 +165,7 @@ class _CourseDetailsScreenState extends State<CourseDetailsScreen>
       "playlistCount": 22,
     };
     return Scaffold(
-      appBar: CustomAppBar(context: context, title: widget.courseName),
+      appBar: customAppBar(context: context, title: widget.courseName),
       body: Padding(
         padding: EdgeInsets.all(16),
         child: Column(
