@@ -124,8 +124,8 @@ dev_dependencies:
 1. **Clone the repository**
 
 ```bash
-git clone <your-repository-url>
-cd e_learning_ui
+git clone https://github.com/newbie-saimur/e-leanring-ui-flutter.git
+cd e-leanring-ui-flutter
 ```
 
 2. **Install dependencies**
@@ -203,16 +203,6 @@ Reusable elevated button with:
 -   Text color, font size, and border radius
 -   Shadow with elevation
 -   Proper state handling with `WidgetStateProperty`
-
-**Usage:**
-
-```dart
-CustomButton(
-  title: "Enroll Now",
-  backgroundColor: AppColors.primaryColor,
-  onPressed: () {},
-)
-```
 
 #### CustomCategoryCard
 
@@ -327,32 +317,12 @@ This is a UI-focused project. To make it production-ready, consider:
 -   [ ] Offline video downloads
 -   [ ] Dark mode support
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👤 Author
 
 **Your Name**
 
--   GitHub: [@yourusername](https://github.com/yourusername)
--   Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
--   Flutter team for the amazing framework
--   Material Design 3 guidelines
--   [Add any design inspirations or asset sources]
+-   GitHub: [@newbie-saimur](https://github.com/newbie-saimur)
+-   Email: mdsaimurrahmanrobin@gmail.com
 
 ---
 
